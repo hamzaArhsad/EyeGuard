@@ -67,4 +67,4 @@ Retailers face billions of dollars in losses every year due to shoplifting. Trad
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/username/EyeGuard.git
+git clone https://github.com/hamzaArshad/EyeGuard.git
