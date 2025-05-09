@@ -1,79 +1,70 @@
-yeGuard: AI-Based Shoplifting Detection System
-EyeGuard is a smart surveillance solution built to combat retail theft using computer vision and machine learning. It automates the detection of suspicious behavior in real time, helping stores reduce losses and enhance security without the need for constant manual oversight.
+# 🛡️ EyeGuard: AI-Powered Shoplifting Detection System
 
-🔍 Problem Addressed
-Retailers worldwide face substantial financial loss due to shoplifting. Traditional methods—like human monitoring or basic security systems—are often inefficient, costly, and inconsistent. EyeGuard offers a scalable alternative by continuously analyzing surveillance footage and identifying theft-related behavior patterns through AI.
+**EyeGuard** is an intelligent surveillance system designed to detect shoplifting activities in real time using computer vision and machine learning. It helps retailers reduce losses, increase security, and automate monitoring by identifying suspicious behaviors from live video feeds.
 
-🎯 Key Objectives
-Live Detection: Continuously monitors store footage to identify abnormal or suspicious actions.
+---
 
-Smart Behavior Recognition: Detects theft-prone activities using machine-learned patterns.
+## 📌 Problem Statement
 
-Instant Alerts: Notifies store personnel or security staff in real-time when suspicious activity occurs.
+Retailers face billions of dollars in losses every year due to shoplifting. Traditional theft prevention methods rely heavily on manual observation, which is time-consuming, expensive, and prone to human error. **EyeGuard** addresses these challenges by providing an automated, scalable solution to monitor and detect shoplifting behavior as it happens.
 
-Incident Tracking: Logs each flagged event for review, analysis, and store audits.
+---
 
-⭐ Key Features
-Video Intelligence: Processes video streams and flags risky behavior.
+## 🎯 Objectives
 
-CNN-Powered Detection: Uses Convolutional Neural Networks to learn and identify shoplifting gestures.
+- 🕒 **Real-Time Detection** – Monitor live camera feeds and identify suspicious activity.
+- 🧠 **Behavioral Analysis** – Detect theft-related actions based on learned movement patterns.
+- 🚨 **Alert System** – Notify store personnel immediately upon detection.
+- 🗂️ **Data Logging** – Record incidents for review and auditing purposes.
 
-Affordable Deployment: Built to be cost-effective and easily integrated into existing systems.
+---
 
-Behavior Awareness: Differentiates between regular browsing and theft-related movements based on context.
+## ✨ Key Features
 
-🧠 Technology Stack
-Programming Language: Python
+- 🎥 **Video Stream Analysis** – Processes surveillance footage to highlight suspicious behavior.
+- 🤖 **AI-Powered Detection** – Utilizes Convolutional Neural Networks (CNNs) to recognize theft patterns.
+- 💰 **Cost-Effective** – Designed for affordability and scalability.
+- 🧍‍♂️ **Behavior Context Awareness** – Differentiates between normal and suspicious actions.
 
-Libraries: OpenCV, TensorFlow, NumPy
+---
 
-Frameworks: Keras (for model development), Flask (for system integration)
+## 🧰 Technologies Used
 
-AI Model: Convolutional Neural Networks (CNNs)
+- **Programming Language:** Python  
+- **Libraries:** OpenCV, TensorFlow, NumPy  
+- **Frameworks:** Keras (model training), Flask (backend integration)  
+- **Model Architecture:** Convolutional Neural Networks (CNNs)
 
-⚙️ System Workflow
-Input: Receives video feed from store surveillance cameras.
+---
 
-Preprocessing: Frames are processed using OpenCV for motion tracking and behavior analysis.
+## ⚙️ How It Works
 
-Prediction: The trained CNN model analyzes movement patterns to detect suspicious activity.
+1. **Input:** Live video feeds from store surveillance cameras.
+2. **Preprocessing:** Frames are analyzed using OpenCV for motion detection and object tracking.
+3. **Model Prediction:** A trained CNN model analyzes behavior to detect potential theft.
+4. **Alert System:** Real-time alerts are sent to the store staff or security.
+5. **Logging:** Detected events are stored for later review or auditing.
 
-Alert System: Generates real-time alerts for store personnel and logs the event.
+---
 
-⚠️ Current Limitations
-May have reduced accuracy in low-resolution or poorly lit environments.
+## 🧪 Limitations
 
-Store-specific adjustments might be needed for different layouts or camera angles.
+- Performance may degrade with poor-quality or low-resolution video.
+- Store layout may require configuration or model fine-tuning.
+- Sophisticated theft techniques may evade detection.
 
-May not detect well-planned or highly subtle theft attempts.
+---
 
-🚀 Future Improvements
-Improve detection in crowded or occluded scenes.
+## 🚀 Future Enhancements
 
-Support integration with a wider network of cameras.
+- Improve accuracy in crowded or obstructed environments.
+- Enable multi-camera system support.
+- Add detailed dashboards and analytics tools for prevention strategies.
 
-Provide dashboard analytics for prevention and decision-making.
+---
 
-🛠️ How to Set Up
-1. Clone the repository:
+## 🛠️ Installation & Usage
 
-bash
-Copy
-Edit
+### 1. Clone the Repository
+```bash
 git clone https://github.com/username/EyeGuard.git
-2. Install dependencies:
-
-bash
-Copy
-Edit
-pip install -r requirements.txt
-3. Run the application:
-
-bash
-Copy
-Edit
-python main.py
-4. Connect to your store’s camera system and begin live monitoring.
-
-📄 License
-This project is licensed under the MIT License. For more information, refer to the LICENSE file included in the repository.
